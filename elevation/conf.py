@@ -1,3 +1,5 @@
 import xarray as xr
+import pkg_resources
 
-data = xr.open_dataset('elevation/KG_ELEVATION/gebco_2023_n44.7144_s36.3208_w66.1377_e84.4629.nc')
+data_file = pkg_resources.resource_filename('elevation', 'KG_ELEVATION/elevation_Kyrgyzstan_2023.nc')
+data = xr.open_dataset(data_file)

@@ -22,6 +22,7 @@ setup(
     description='Get the elevation of any ground point in Kyrgyzstan with Elevation-Kyrgyzstan',
     long_description=open("README.rst", "r").read(),
     include_package_data=True,
+    package_data={'elevation': ['KG_ELEVATION/*.nc']},
     author='Azimkozho Kenzhebek uulu',
     author_email='azimkozho.inventor@gmail.com',
     url='https://github.com/Azim-Kenzh/elevation-Kyrgyzstan',
