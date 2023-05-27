@@ -18,7 +18,7 @@ def get_install_requires():
 setup(
     name='elevation-Kyrgyzstan',
     packages=['elevation'],
-    version='0.0.1',
+    version='1.0.0',
     description='Get the elevation of any ground point in Kyrgyzstan with Elevation-Kyrgyzstan',
     long_description=open("README.rst", "r").read(),
     include_package_data=True,
